@@ -1,17 +1,16 @@
 # 📦 Object Detection – Overview & Real-World Applications
 
 ## 📋 Table of Contents
-- [🧠 What is Object Detection?](#-what-is-object-detection)
-- [🎯 Why Object Detection Matters](#-why-object-detection-matters)
-- [🌐 General Use Cases](#-general-use-cases)
-- [🏗️ Domain-Specific Applications](#-domain-specific-applications)
-  - [🌍 Remote Sensing](#1--remote-sensing)
-  - [🏙️ Urban Sensing](#2--urban-sensing)
-  - [🌱 Land Cover Segmentation](#3--land-cover-segmentation)
-  - [🪖 Military & Defense](#4--military--defense)
-- [🧩 Comparison Overview](#-comparison-overview)
-- [🔧 Popular Models & Frameworks](#-popular-models--frameworks)
-- [📚 Additional Resources](#-additional-resources)
+- [What is Object Detection?](#-what-is-object-detection)
+- [Why Object Detection Matters](#-why-object-detection-matters)
+- [General Use Cases](#-general-use-cases)
+- [Domain-Specific Applications](#-domain-specific-applications)
+  - [Remote Sensing](#1-remote-sensing)
+  - [Urban Sensing](#2-urban-sensing)
+  - [Land Cover Segmentation](#3-land-cover-segmentation)
+  - [Military & Defense](#4-military--defense)
+- [Popular Models & Frameworks](#-popular-models--frameworks)
+- [Additional Resources](#-additional-resources)
 
 ---
 
@@ -28,135 +27,151 @@ Object detection forms the foundation of many modern AI systems that rely on vis
 
 ## 🎯 Why Object Detection Matters
 
-Object detection plays a critical role in AI-driven systems because it:
-
-- Enables real-time decision-making in autonomous technologies
-- Automates complex visual inspection tasks across industries
-- Extracts actionable insights from vast visual datasets
-- Serves as a core component in AI, robotics, and smart systems
-
----
+Object detection enables:
+- Real-time automation in autonomous systems
+- Smart surveillance, monitoring, and control
+- Advanced analytics in urban planning, defense, agriculture
+- Scalable processing of large volumes of visual data
 
 ## 🌐 General Use Cases
 
-| Sector         | Use Case Examples                          | Key Technologies            |
-|----------------|---------------------------------------------|-----------------------------|
-| 📹 Surveillance | Face detection, crowd monitoring           | Deep learning, CNN          |
-| 🚗 Autonomous Vehicles | Pedestrian, sign, vehicle detection | LIDAR, Computer Vision      |
-| 🏭 Manufacturing | Defect detection, quality inspection      | Machine Vision, IoT         |
-| 🛒 Retail       | Smart checkout, inventory tracking         | Computer Vision, AI         |
-| 📱 Mobile       | Augmented Reality, camera search           | AR SDKs, On-device ML       |
-| 🧬 Healthcare   | Tumor detection, radiology imaging         | Deep learning, CNN          |
+| Sector         | Use Case Examples                     | Key Technologies           |
+|----------------|----------------------------------------|----------------------------|
+| 📹 Surveillance | Face/crowd detection, tracking         | Deep learning, CNN         |
+| 🚗 Automotive   | Sign, vehicle, pedestrian detection    | LiDAR, Computer Vision     |
+| 🏭 Industry     | Defect detection, automation           | IoT, Machine Vision        |
+| 🛒 Retail       | Inventory tracking, checkout systems   | AI, Object Detection       |
+| 📱 Mobile       | AR-based search, visual search         | AR frameworks, ML          |
+| 🧬 Healthcare   | Medical imaging, tumor detection       | CNN, Deep Learning         |
 
 ---
 
-# 🏗️ Domain-Specific Applications
+# Domain-Specific Applications
 
 ## 1. 🌍 Remote Sensing
 
-**Overview:**  
-Object detection is applied to satellite and aerial imagery to monitor environmental and geographic changes.
+### Overview
+Applied to satellite and drone imagery to extract insights about the Earth’s surface for environmental, industrial, and agricultural insights.
 
-**Applications:**
-- Deforestation and afforestation tracking
-- Vegetation and crop health monitoring
-- Urban sprawl and infrastructure mapping
-- Natural disaster detection (e.g., wildfires, floods)
+### Use Cases
+- Detecting deforestation and crop stress
+- Mapping roads, infrastructure, or disaster zones
+- Infrastructure development and urban mapping
+- Energy site inspection and planning
 
-**Key Players:**
-- **Planet Labs** – Daily monitoring of Earth with a large satellite fleet  
-- **Descartes Labs** – Geospatial analytics powered by AI and satellite data
+**Companies:**
+- [Planet Labs](https://www.planet.com) – Earth observation satellites  
+- [Descartes Labs](https://www.descarteslabs.com) – AI-powered geospatial analytics  
+- [Propeller Aero](https://www.propelleraero.com) – 3D mapping for construction & mining  
+- [Skycatch](https://www.skycatch.com) – Drone mapping in high-risk industries  
+- [Pix4D](https://www.pix4d.com) – Photogrammetry and drone mapping tools
 
----
+**Datasets:**
+- [LandCover.ai](https://landcover.ai) – RGB aerial land segmentation  
+- [DroneDeploy](https://github.com/droneDeploy) – Annotated drone imagery  
+- [OpenEarthMap](https://open-earth-map.org) – Global aerial land cover (2M+ tiles)  
+- [FLAIR Dataset](https://ignf.github.io/FLAIR/) – High-res RGB imagery (France)
+
+<hr>
 
 ## 2. 🏙️ Urban Sensing
 
 **Overview:**  
-Cities leverage real-time camera feeds and IoT sensors with AI to improve efficiency and safety.
+Uses real-time camera and drone data to manage traffic, safety, and infrastructure in smart cities.
 
-**Applications:**
-- Smart traffic systems and congestion detection
-- Pedestrian tracking and mobility analysis
-- Road condition monitoring and maintenance
-- Automatic detection of traffic violations
+### Use Cases
+- Congestion prediction and smart traffic systems
+- Infrastructure planning and zoning
+- Crowd monitoring & emergency services
+- Illegal parking detection and road repair
 
-**Key Players:**
-- **NVIDIA Metropolis** – AI-powered platform for urban infrastructure  
-- **Huawei Smart City** – Integrated analytics for public safety and mobility
+**Companies:**
+- [NVIDIA Metropolis](https://developer.nvidia.com/metropolis) – AI for smart infrastructure  
+- [Huawei Smart City](https://e.huawei.com/en/solutions/industries/smart-city) – IoT and AI in urban analytics  
+- [OpenDroneMap](https://www.opendronemap.org) – Open-source drone imagery platform
 
----
+### Datasets
+- **SkyScapes (DLR)** – Road and lane segmentation from Munich  
+  🔗 [DLR Website](https://www.dlr.de/en/eoc)  
+- **OpenCities AI Challenge** – African cities’ building footprint detection  
+  🔗 https://drivendata.org/competitions/60/building-segmentation-africa/
 
-## 3. 🌱 Land Cover Segmentation
+<hr>
 
-**Overview:**  
-A form of semantic segmentation for environmental monitoring, policy planning, and agriculture.
+## 3. 🌱 Land Cover
 
-**Applications:**
-- Land-use classification (urban, forest, water, farmland)
-- Environmental monitoring and policy assessment
-- Precision agriculture insights
-- Climate change tracking
+### Overview
+Pixel-wise object detection (semantic segmentation) is used to classify land types from aerial images.
 
-**Key Platforms:**
-- **Google Earth Engine** – Scalable AI-based geospatial analysis  
-- **ESA** – High-resolution land cover mapping for Europe
+### Use Cases
+- Land-use categorization: urban, forest, agriculture, water
+- Monitoring biodiversity, pollution, desertification
+- Precision agriculture and irrigation planning
+- Environmental impact tracking
 
----
+### Platforms
+- **Google Earth Engine**: Global-scale geospatial analysis  
+  🔗 https://earthengine.google.com  
+- [ESA (European Space Agency)](https://www.esa.int/Applications/Observing_the_Earth) – Land cover monitoring tools
+
+### Datasets
+- **OpenEarthMap-SAR** – SAR imagery over 35 regions  
+  🔗 https://zenodo.org/record/10640665  
+- **SEN12MS** – Multispectral, seasonal land cover dataset  
+  🔗 https://mediatum.ub.tum.de/1474000  
+- **LandCoverNet Africa** – Sentinel-2 land cover over Sub-Saharan Africa  
+  🔗 https://radiant.earth/landcovernet/
+
+<hr>
 
 ## 4. 🪖 Military & Defense
 
 **Overview:**  
-Object detection enhances situational awareness, target recognition, and strategic planning.
+Defense agencies leverage object detection for battlefield intelligence and surveillance via drones and satellites.
 
-**Applications:**
-- Real-time personnel and vehicle tracking
-- Border surveillance with drones and satellites
-- Autonomous drone-based reconnaissance
-- Smart weapons and mission planning systems
+**Use Cases:**
+- Target detection and classification (vehicles, weapons, personnel)
+- Tactical surveillance and real-time tracking
+- Reconnaissance via drones and satellites
+- Autonomous weapon systems and situational awareness
 
-**Key Organizations:**
-- **Palantir** – Gotham and Maven AI platforms for battlefield intelligence  
-- **DARPA**, **NATO**, **Lockheed Martin**, **Raytheon** – Defense innovation and deployment
+**Companies & Initiatives:**
+- [Palantir](https://www.palantir.com) – Gotham/Maven AI platforms  
+- [DARPA](https://www.darpa.mil), [NATO](https://www.nato.int), [Lockheed Martin](https://www.lockheedmartin.com), [Raytheon](https://www.rtx.com) – Research and deployment  
+- [Sentient Vision Systems](https://sentientvision.com) – Maritime EO tracking  
+- [Shield AI](https://www.shield.ai) – AI-piloted tactical drones  
+- [Helsing](https://www.helsing.ai) – Combat-ready autonomous vision systems  
+- [Project Maven](https://www.theguardian.com/technology/2018/mar/07/google-ai-us-department-of-defense-military-drone-project-maven-tensorflow) – U.S. DoD program using AI on drone footage
 
----
-
-## 🧩 Comparison Overview
-
-| Domain                  | Data Source              | Primary Goal                              | Notable Organizations          |
-|-------------------------|--------------------------|--------------------------------------------|--------------------------------|
-| 🌍 Remote Sensing       | Satellite, drone imagery | Land monitoring, disaster detection        | Planet Labs, Descartes Labs    |
-| 🏙️ Urban Sensing        | Cameras, IoT devices     | Smart infrastructure, traffic management   | NVIDIA Metropolis, Huawei      |
-| 🌱 Land Segmentation     | High-res satellite data  | Land-use classification and planning       | Google Earth Engine, ESA       |
-| 🪖 Military & Defense    | Drones, radar, satellites| Surveillance, targeting, battlefield intel | Palantir, DARPA, Lockheed M.   |
+### Datasets
+- **Roboflow Military Drone Dataset** – Real-world drone detection  
+  🔗 https://universe.roboflow.com/military-xmb2h/military-drone-detection  
+- **MDPI UAVT-3** – UAV surveillance + fine-tuned detection  
+  🔗 https://www.mdpi.com/2076-3417/12/23/12236  
+- **DOTA** – Large-scale aerial object dataset (ships, planes, tanks)  
+  🔗 https://captain-whu.github.io/DOTA/dataset.html  
+- **xView** – Military/civilian vehicle detection from satellite  
+  🔗 https://xviewdataset.org
 
 ---
 
 ## 🔧 Popular Models & Frameworks
 
-### 📌 Detection Architectures
+### Detection Architectures
+- **YOLO (You Only Look Once)**: Real-time, edge device-friendly
+- **Faster R-CNN**: High accuracy, slower inference
+- **SSD (Single Shot Detector)**: Balanced performance
 
-- **YOLO (You Only Look Once)**  
-  - Lightning-fast, real-time detection  
-  - Ideal for edge computing and mobile apps
-
-- **Faster R-CNN**  
-  - High accuracy and detailed predictions  
-  - Suitable for applications where precision is critical
-
-- **SSD (Single Shot Detector)**  
-  - Balanced speed and accuracy  
-  - Suitable for embedded and mobile systems
-
-### 🧰 Libraries & Tools
-- **TensorFlow** / **PyTorch** – Popular deep learning frameworks  
-- **OpenCV** – Classical image processing + integration with ML  
-- **Detectron2** – Facebook AI's modular object detection library  
-- **MMDetection** – OpenMMLab's research-friendly detection framework
+### Libraries & Tools
+- **TensorFlow** / **PyTorch**
+- **OpenCV**
+- **Detectron2**
+- **MMDetection**
 
 ---
 
 ## 📚 Additional Resources
-
-- [COCO Dataset](https://cocodataset.org/) – Common benchmark for detection
-- [ImageNet](https://image-net.org/) – Large image classification dataset
-- [Papers with Code – Object Detection](https://paperswithcode.com/task/object-detection) – Track SOTA models
+- [Awesome Satellite Imagery Datasets (GitHub)](https://github.com/chrieke/awesome-satellite-imagery-datasets)
+- [COCO Dataset](https://cocodataset.org/)
+- [ImageNet](https://image-net.org/)
+- [Papers with Code – Object Detection](https://paperswithcode.com/task/object-detection)
