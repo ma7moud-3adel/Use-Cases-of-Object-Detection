@@ -21,7 +21,11 @@
 - 🔍 **Classification** — Determines what the object is (e.g., car, person, dog)
 - 📦 **Localization** — Identifies where the object is, using bounding boxes
 
-Object detection forms the foundation of many modern AI systems that rely on visual understanding. It underpins many real-world AI systems that rely on visual data interpretation.
+Object Detection is a critical computer vision technique enabling machines to identify and locate objects in real-world environments. Its integration into diverse industries — including retail, healthcare, agriculture, manufacturing, and transportation — highlights its versatility and transformative impact.
+
+SmartTek (2024) emphasizes that object detection supports real-time analytics across retail stores, autonomous navigation in self-driving vehicles, plant disease detection in agriculture, PPE monitoring on construction sites, and even performance tracking in sports.
+
+🔗 Source: [SmartTek Solutions – Object Detection](https://smarttek.solutions/blog/object-detection-technology/)
 
 
 ---
@@ -31,8 +35,13 @@ Object detection forms the foundation of many modern AI systems that rely on vis
 Object detection enables:
 - Real-time automation in autonomous systems
 - Smart surveillance, monitoring, and control
+- Precision agriculture and environmental tracking  
 - Advanced analytics in urban planning, defense, agriculture
+- Retail analytics and customer behavior tracking  
 - Scalable processing of large volumes of visual data
+- Medical diagnostics from visual data  
+
+🔗 [SmartTek: Object Detection in Real World](https://smarttek.solutions/blog/object-detection-technology)
 
 ## 🌐 General Use Cases
 
@@ -181,10 +190,7 @@ Defense agencies leverage object detection for battlefield intelligence and surv
 - **SSD (Single Shot Detector)**: Balanced performance
 
 ### Libraries & Tools
-- **TensorFlow** / **PyTorch**
-- **OpenCV**
-- **Detectron2**
-- **MMDetection**
+- [TensorFlow](https://www.tensorflow.org), [PyTorch](https://pytorch.org), [Detectron2](https://github.com/facebookresearch/detectron2), [MMDetection](https://github.com/open-mmlab/mmdetection), [OpenCV](https://opencv.org)
 
 ---
 
