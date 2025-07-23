@@ -7,8 +7,6 @@
 - **Classification** – What is the object?
 - **Localization** – Where is the object? (via bounding boxes)
 
----
-
 ## 🔍 Comparison with Related Techniques
 
 | Technique              | Description |
@@ -26,8 +24,6 @@
 - Automates visual tasks in various industries (manufacturing, defense, urban development).
 - Powers smart devices and infrastructure (AR apps, traffic management, surveillance).
 - Integral to safety, logistics, and productivity in AI-based systems.
-
----
 
 ## 🌐 General Use Cases
 
@@ -138,15 +134,3 @@ Defense organizations apply object detection for strategic and tactical situatio
 - **OpenCV**
 - **Detectron2**
 - **MMDetection**
-
----
-
-## ✅ What’s Next?
-
-Would you like to:
-
-- Explore the architecture behind YOLO, Faster R-CNN, or SSD?
-- Start a practical project using satellite or drone imagery?
-- Learn how to deploy object detection models on edge devices or in cloud pipelines?
-
-Let me know and I can help with tutorials, datasets, or step-by-step guides tailored to your goals.
