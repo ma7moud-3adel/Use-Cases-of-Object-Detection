@@ -76,6 +76,9 @@ Applied to satellite and drone imagery to extract insights about the Earth’s s
 - [OpenEarthMap](https://open-earth-map.org) – Global aerial land cover (2M+ tiles)  
 - [FLAIR Dataset](https://ignf.github.io/FLAIR/) – High-res RGB imagery (France)
 
+**Academic Papers & Research:**
+- [Meta-review of Deep Learning in Remote Sensing](https://arxiv.org/abs/2309.06751) – Summary of 300+ research papers in aerial object detection. 
+
 <hr>
 
 ## 2. 🏙️ Urban Sensing
@@ -99,6 +102,9 @@ Uses real-time camera and drone data to manage traffic, safety, and infrastructu
   🔗 [DLR Website](https://www.dlr.de/en/eoc)  
 - **OpenCities AI Challenge** – African cities’ building footprint detection  
   🔗 https://drivendata.org/competitions/60/building-segmentation-africa/
+
+**Academic Papers & Research:**
+- [Performance Evaluation for Drone-based Object Detection in Urban Areas (2024)](https://www.mdpi.com/1424-8220/24/19/6347)
 
 <hr>
 
@@ -125,6 +131,10 @@ Pixel-wise object detection (semantic segmentation) is used to classify land typ
   🔗 https://mediatum.ub.tum.de/1474000  
 - **LandCoverNet Africa** – Sentinel-2 land cover over Sub-Saharan Africa  
   🔗 https://radiant.earth/landcovernet/
+
+**Academic Papers & Research:**
+- [U-Net for Land Cover Classification](https://arxiv.org/abs/2003.02899)
+- [Semantic Segmentation for Change Detection](https://arxiv.org/abs/1911.12903)
 
 <hr>
 
@@ -157,6 +167,9 @@ Defense agencies leverage object detection for battlefield intelligence and surv
   🔗 https://captain-whu.github.io/DOTA/dataset.html  
 - **xView** – Military/civilian vehicle detection from satellite  
   🔗 https://xviewdataset.org
+
+**Academic Papers & Research:**
+- [MOD Dataset – Military Object Detection Benchmark](https://arxiv.org/pdf/2104.13763v1)
 
 ---
 
