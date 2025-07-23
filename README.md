@@ -21,7 +21,8 @@
 - 🔍 **Classification** — Determines what the object is (e.g., car, person, dog)
 - 📦 **Localization** — Identifies where the object is, using bounding boxes
 
-Object detection forms the foundation of many modern AI systems that rely on visual understanding.
+Object detection forms the foundation of many modern AI systems that rely on visual understanding. It underpins many real-world AI systems that rely on visual data interpretation.
+
 
 ---
 
@@ -56,10 +57,13 @@ Applied to satellite and drone imagery to extract insights about the Earth’s s
 ### Use Cases
 - Detecting deforestation and crop stress
 - Mapping roads, infrastructure, or disaster zones
+- Disaster response and damage assessment
 - Infrastructure development and urban mapping
 - Energy site inspection and planning
 
 **Companies:**
+- [Palantir + Xailient Case Study](https://xailient.com/casestudies/palantir-poc/?utm_source=chatgpt.com) – Using object detection in satellite & aerial imagery for monitoring  
+- [Airbus Aerial (Wired Article)](https://www.wired.com/story/airbus-aerial-drones/?utm_source=chatgpt.com) – Drone-based disaster response and insurance mapping
 - [Planet Labs](https://www.planet.com) – Earth observation satellites  
 - [Descartes Labs](https://www.descarteslabs.com) – AI-powered geospatial analytics  
 - [Propeller Aero](https://www.propelleraero.com) – 3D mapping for construction & mining  
@@ -142,6 +146,7 @@ Defense agencies leverage object detection for battlefield intelligence and surv
 - [Shield AI](https://www.shield.ai) – AI-piloted tactical drones  
 - [Helsing](https://www.helsing.ai) – Combat-ready autonomous vision systems  
 - [Project Maven](https://www.theguardian.com/technology/2018/mar/07/google-ai-us-department-of-defense-military-drone-project-maven-tensorflow) – U.S. DoD program using AI on drone footage
+- [Palantir + Xailient Case Study](https://xailient.com/casestudies/palantir-poc/?utm_source=chatgpt.com) – Real-time battlefield vision AI deployment
 
 ### Datasets
 - **Roboflow Military Drone Dataset** – Real-world drone detection  
