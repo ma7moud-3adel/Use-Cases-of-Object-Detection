@@ -60,8 +60,7 @@ Object detection enables:
 
 ## 1. 🌍 Remote Sensing
 
-### Overview
-Applied to satellite and drone imagery to extract insights about the Earth’s surface for environmental, industrial, and agricultural insights.
+**Focus:** Environmental, agricultural, and industrial monitoring via aerial imagery
 
 ### Use Cases
 - Detecting deforestation and crop stress
@@ -92,12 +91,11 @@ Applied to satellite and drone imagery to extract insights about the Earth’s s
 
 ## 2. 🏙️ Urban Sensing
 
-**Overview:**  
-Uses real-time camera and drone data to manage traffic, safety, and infrastructure in smart cities.
+**Focus:** Smart cities, infrastructure monitoring, and urban planning
 
 ### Use Cases
 - Congestion prediction and smart traffic systems
-- Infrastructure planning and zoning
+- Infrastructure planning and zoning assessment (bridges, buildings, roads) 
 - Crowd monitoring & emergency services
 - Illegal parking detection and road repair
 
@@ -119,8 +117,7 @@ Uses real-time camera and drone data to manage traffic, safety, and infrastructu
 
 ## 3. 🌱 Land Cover
 
-### Overview
-Pixel-wise object detection (semantic segmentation) is used to classify land types from aerial images.
+**Focus:** Classifying land cover types in aerial imagery using segmentation models
 
 ### Use Cases
 - Land-use categorization: urban, forest, agriculture, water
@@ -149,23 +146,22 @@ Pixel-wise object detection (semantic segmentation) is used to classify land typ
 
 ## 4. 🪖 Military & Defense
 
-**Overview:**  
-Defense agencies leverage object detection for battlefield intelligence and surveillance via drones and satellites.
+**Focus:** Autonomous surveillance and intelligence using aerial imagery
 
 **Use Cases:**
-- Target detection and classification (vehicles, weapons, personnel)
+- Target detection and classification (vehicles, weapons, equipment, personnel)
 - Tactical surveillance and real-time tracking
 - Reconnaissance via drones and satellites
 - Autonomous weapon systems and situational awareness
 
 **Companies & Initiatives:**
 - [Palantir](https://www.palantir.com) – Gotham/Maven AI platforms  
-- [DARPA](https://www.darpa.mil), [NATO](https://www.nato.int), [Lockheed Martin](https://www.lockheedmartin.com), [Raytheon](https://www.rtx.com) – Research and deployment  
-- [Sentient Vision Systems](https://sentientvision.com) – Maritime EO tracking  
 - [Shield AI](https://www.shield.ai) – AI-piloted tactical drones  
+- [Sentient Vision Systems](https://sentientvision.com) – Maritime EO tracking  
 - [Helsing](https://www.helsing.ai) – Combat-ready autonomous vision systems  
 - [Project Maven](https://www.theguardian.com/technology/2018/mar/07/google-ai-us-department-of-defense-military-drone-project-maven-tensorflow) – U.S. DoD program using AI on drone footage
 - [Palantir + Xailient Case Study](https://xailient.com/casestudies/palantir-poc/?utm_source=chatgpt.com) – Real-time battlefield vision AI deployment
+- [DARPA](https://www.darpa.mil), [NATO](https://www.nato.int), [Lockheed Martin](https://www.lockheedmartin.com), [Raytheon](https://www.rtx.com) – Research and deployment  
 
 ### Datasets
 - **Roboflow Military Drone Dataset** – Real-world drone detection  
