@@ -51,7 +51,8 @@ Object detection enables:
 
 🔗 [SmartTek: Object Detection in Real World](https://smarttek.solutions/blog/object-detection-technology)
 
-## 🌐 General Use Cases
+<!-- ## 🌐 General Use Cases -->
+<h2 id="General"> 🌐 General Use Cases </h2>
 
 | Sector          | Use Case Examples                      | Key Technologies           |
 |-----------------|----------------------------------------|----------------------------|
