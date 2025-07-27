@@ -1,22 +1,27 @@
 # 📦 Object Detection – Overview & Real-World Applications
 
 ## 📋 Table of Contents
-- [What is Object Detection?](#-what-is-object-detection)
-- [Why Object Detection Matters](#-why-object-detection-matters)
-- [General Use Cases](#-general-use-cases)
-- [Domain-Specific Applications](#-domain-specific-applications)
+<!-- - [What is Object Detection?](#-what-is-object-detection) -->
+- <a href="#What">What is Object Detection?</a>
+<!-- - [Why Object Detection Matters](#-why-object-detection-matters) -->
+- <a href="#Why">Why Object Detection Matters</a>
+<!-- - [General Use Cases](#-general-use-cases) -->
+- <a href="#General">General Use Cases</a>
+<!-- - [Domain-Specific Applications](#-domain-specific-applications) -->
+- <a href="#Domain">Domain-Specific Applications</a>
   - [Remote Sensing](#1-remote-sensing)
   - [Urban Sensing](#2-urban-sensing)
   - [Land Cover Segmentation](#3-land-cover-segmentation)
   - [Military & Defense](#4-military--defense)
 <!-- - [Object-Specific Use Cases](#-object-specific-use-cases) -->
-- <a href="#here">Object-Specific Use Cases</a>
+- <a href="#Specific">Object-Specific Use Cases</a>
 - [Popular Models & Frameworks](#-popular-models--frameworks)
 - [Additional Resources](#-additional-resources)
 
 ---
 
-## 🧠 What is Object Detection?
+<!-- ## 🧠 What is Object Detection? -->
+<h2 id="What"> 🧠 What is Object Detection? </h2>
 
 **Object Detection** is a computer vision technique that identifies and localizes multiple objects within an image or video frame. It performs two key tasks:
 
@@ -32,7 +37,8 @@ SmartTek (2024) emphasizes that object detection supports real-time analytics ac
 
 ---
 
-## 🎯 Why Object Detection Matters
+<!-- ## 🎯 Why Object Detection Matters -->
+<h2 id="Why"> 🎯 Why Object Detection Matters </h2>
 
 Object detection enables:
 - Real-time automation in autonomous systems
@@ -58,7 +64,8 @@ Object detection enables:
 
 ---
 
-# Domain-Specific Applications
+<!-- # Domain-Specific Applications -->
+<h2 id="Domain"> Domain-Specific Applications </h2>
 
 ## 1. 🌍 Remote Sensing
 
@@ -170,7 +177,7 @@ Object detection enables:
 ---
 
 <!-- ## Object-Specific Use Cases -->
-<h3 id="here"> Object-Specific Use Cases </h3>
+<h2 id="Specific"> Object-Specific Use Cases </h2>
 
 This section focuses on specific object classes commonly found in aerial/satellite imagery. Each object is linked to a relevant field of application, datasets, and practical use cases.
 
