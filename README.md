@@ -9,14 +9,20 @@
 - <a href="#General">General Use Cases</a>
 <!-- - [Domain-Specific Applications](#-domain-specific-applications) -->
 - <a href="#Domain">Domain-Specific Applications</a>
-  - [Remote Sensing](#1-remote-sensing)
-  - [Urban Sensing](#2-urban-sensing)
-  - [Land Cover Segmentation](#3-land-cover-segmentation)
-  - [Military & Defense](#4-military--defense)
+  <!-- - [Remote Sensing](#1-remote-sensing) -->
+  - <a href="#Remote">Remote Sensing</a>
+  <!-- - [Urban Sensing](#2-urban-sensing) -->
+  - <a href="#Urban">Urban Sensing</a>
+  <!-- - [Land Cover Segmentation](#3-land-cover-segmentation) -->
+  - <a href="#Land">Land Cover</a>
+  <!-- - [Military & Defense](#4-military--defense) -->
+  - <a href="#Military">Military & Defense</a>
 <!-- - [Object-Specific Use Cases](#-object-specific-use-cases) -->
 - <a href="#Specific">Object-Specific Use Cases</a>
-- [Popular Models & Frameworks](#-popular-models--frameworks)
-- [Additional Resources](#-additional-resources)
+<!-- - [Popular Models & Frameworks](#-popular-models--frameworks) -->
+- <a href="#Popular">Popular Models & Frameworks</a>
+<!-- - [Additional Resources](#-additional-resources) -->
+- <a href="#Additional">Additional Resources</a>
 
 ---
 
@@ -68,7 +74,8 @@ Object detection enables:
 <!-- # Domain-Specific Applications -->
 <h2 id="Domain"> Domain-Specific Applications </h2>
 
-## 1. 🌍 Remote Sensing
+<!-- ## 1. 🌍 Remote Sensing -->
+<h3 id="Remote"> 1. 🌍 Remote Sensing </h3>
 
 **Focus:** Environmental, agricultural, and industrial monitoring via aerial imagery
 
@@ -99,7 +106,8 @@ Object detection enables:
 
 <hr>
 
-## 2. 🏙️ Urban Sensing
+<!-- ## 2. 🏙️ Urban Sensing -->
+<h3 id="Urban"> 2. 🏙️ Urban Sensing </h3>
 
 **Focus:** Smart city development, real-time infrastructure monitoring, and urban planning using aerial and sensor-based imagery.
 
@@ -122,7 +130,8 @@ Object detection enables:
 
 <hr>
 
-## 3. 🌱 Land Cover
+<!-- ## 3. 🌱 Land Cover -->
+<h3 id="Land"> 3. 🌱 Land Cover </h3>
 
 **Focus:** Classifying land cover types in aerial imagery using segmentation models
 
@@ -147,7 +156,8 @@ Object detection enables:
 
 <hr>
 
-## 4. 🪖 Military & Defense
+<!-- ## 4. 🪖 Military & Defense -->
+<h3 id="Military"> 4. 🪖 Military & Defense </h3>
 
 **Focus:** Real-time aerial surveillance, target detection, and autonomous intelligence in defense operations.
 
@@ -280,7 +290,8 @@ This section focuses on specific object classes commonly found in aerial/satelli
 
 ---
 
-## 🔧 Popular Models & Frameworks
+<!-- ## 🔧 Popular Models & Frameworks -->
+<h2 id="Popular"> 🔧 Popular Models & Frameworks </h2>
 
 ### Detection Architectures
 - **YOLO (You Only Look Once)**: Real-time, edge device-friendly
@@ -292,7 +303,9 @@ This section focuses on specific object classes commonly found in aerial/satelli
 
 ---
 
-## 📚 Additional Resources
+<!-- ## 📚 Additional Resources -->
+<h2 id="Additional"> 📚 Additional Resources </h2>
+
 - [Awesome Satellite Imagery Datasets (GitHub)](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 - [COCO Dataset](https://cocodataset.org/)
 - [ImageNet](https://image-net.org/)
