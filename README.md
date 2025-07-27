@@ -9,6 +9,7 @@
   - [Urban Sensing](#2-urban-sensing)
   - [Land Cover Segmentation](#3-land-cover-segmentation)
   - [Military & Defense](#4-military--defense)
+- [Object-Specific Use Cases](#-object-specific-use-cases)
 - [Popular Models & Frameworks](#-popular-models--frameworks)
 - [Additional Resources](#-additional-resources)
 
@@ -45,8 +46,8 @@ Object detection enables:
 
 ## 🌐 General Use Cases
 
-| Sector         | Use Case Examples                     | Key Technologies           |
-|----------------|----------------------------------------|----------------------------|
+| Sector          | Use Case Examples                      | Key Technologies           |
+|-----------------|----------------------------------------|----------------------------|
 | 📹 Surveillance | Face/crowd detection, tracking         | Deep learning, CNN         |
 | 🚗 Automotive   | Sign, vehicle, pedestrian detection    | LiDAR, Computer Vision     |
 | 🏭 Industry     | Defect detection, automation           | IoT, Machine Vision        |
@@ -74,15 +75,15 @@ Object detection enables:
 - [Airbus Aerial (Wired Article)](https://www.wired.com/story/airbus-aerial-drones/?utm_source=chatgpt.com) – Drone-based disaster response and insurance mapping
 - [Planet Labs](https://www.planet.com) – Earth observation satellites  
 - [Descartes Labs](https://www.descarteslabs.com) – AI-powered geospatial analytics  
-- [Propeller Aero](https://www.propelleraero.com) – 3D mapping for construction & mining  
 - [Skycatch](https://www.skycatch.com) – Drone mapping in high-risk industries  
-- [Pix4D](https://www.pix4d.com) – Photogrammetry and drone mapping tools
 
 **Datasets:**
+- [DOTA](https://captain-whu.github.io/DOTA/dataset.html)
+- [xView](https://xviewdataset.org)
 - [LandCover.ai](https://landcover.ai) – RGB aerial land segmentation  
 - [DroneDeploy](https://github.com/droneDeploy) – Annotated drone imagery  
 - [OpenEarthMap](https://open-earth-map.org) – Global aerial land cover (2M+ tiles)  
-- [FLAIR Dataset](https://ignf.github.io/FLAIR/) – High-res RGB imagery (France)
+- [SEN12MS](https://mediatum.ub.tum.de/1474000)
 
 **Academic Papers & Research:**
 - [Meta-review of Deep Learning in Remote Sensing](https://arxiv.org/abs/2309.06751) – Summary of 300+ research papers in aerial object detection. 
@@ -91,7 +92,7 @@ Object detection enables:
 
 ## 2. 🏙️ Urban Sensing
 
-**Focus:** Smart cities, infrastructure monitoring, and urban planning
+**Focus:** Smart city development, real-time infrastructure monitoring, and urban planning using aerial and sensor-based imagery.
 
 ### Use Cases
 - Congestion prediction and smart traffic systems
@@ -100,18 +101,15 @@ Object detection enables:
 - Illegal parking detection and road repair
 
 **Companies:**
-- [NVIDIA Metropolis](https://developer.nvidia.com/metropolis) – AI for smart infrastructure  
-- [Huawei Smart City](https://e.huawei.com/en/solutions/industries/smart-city) – IoT and AI in urban analytics  
-- [OpenDroneMap](https://www.opendronemap.org) – Open-source drone imagery platform
+- [NVIDIA Metropolis](https://developer.nvidia.com/metropolis) – Edge AI platform for video analytics in smart cities (traffic, safety, crowd detection)
+- [Huawei Smart City](https://e.huawei.com/en/solutions/industries/smart-city) – End-to-end urban sensing and IoT platform with AI integration
 
 ### Datasets
-- **SkyScapes (DLR)** – Road and lane segmentation from Munich  
-  🔗 [DLR Website](https://www.dlr.de/en/eoc)  
-- **OpenCities AI Challenge** – African cities’ building footprint detection  
-  🔗 https://drivendata.org/competitions/60/building-segmentation-africa/
+- [SkyScapes (DLR)](https://www.dlr.de/en/eoc) – Road/lane segmentation from aerial imagery over Munich (German Aerospace Center)
+- [OpenCities AI Challenge](https://drivendata.org/competitions/60/building-segmentation-africa/) – African city building footprint segmentation from drone imagery
 
 **Academic Papers & Research:**
-- [Performance Evaluation for Drone-based Object Detection in Urban Areas (2024)](https://www.mdpi.com/1424-8220/24/19/6347)
+- [Performance Evaluation for Drone-based Object Detection in Urban Areas (2024)](https://www.mdpi.com/1424-8220/24/19/6347) – Benchmarks object detection in dense, complex city environments
 
 <hr>
 
@@ -126,27 +124,23 @@ Object detection enables:
 - Environmental impact tracking
 
 ### Platforms
-- **Google Earth Engine**: Global-scale geospatial analysis  
-  🔗 https://earthengine.google.com  
-- [ESA (European Space Agency)](https://www.esa.int/Applications/Observing_the_Earth) – Land cover monitoring tools
+- [Google Earth Engine](https://earthengine.google.com) – Cloud platform for global-scale geospatial analysis, widely used in academic and NGO land cover research  
+- [European Space Agency (ESA)](https://www.esa.int/Applications/Observing_the_Earth) – Hosts Sentinel missions and provides global land monitoring tools
 
 ### Datasets
-- **OpenEarthMap-SAR** – SAR imagery over 35 regions  
-  🔗 https://zenodo.org/record/10640665  
-- **SEN12MS** – Multispectral, seasonal land cover dataset  
-  🔗 https://mediatum.ub.tum.de/1474000  
-- **LandCoverNet Africa** – Sentinel-2 land cover over Sub-Saharan Africa  
-  🔗 https://radiant.earth/landcovernet/
+- [SEN12MS](https://mediatum.ub.tum.de/1474000) – Multispectral, multi-seasonal land cover imagery across global regions  
+- [LandCoverNet Africa](https://radiant.earth/landcovernet/) – High-quality Sentinel-2 labeled dataset focused on Sub-Saharan Africa  
+- [OpenEarthMap-SAR](https://zenodo.org/record/10640665) – SAR-based global dataset covering 35+ regions for land cover segmentation
 
 **Academic Papers & Research:**
-- [U-Net for Land Cover Classification](https://arxiv.org/abs/2003.02899)
-- [Semantic Segmentation for Change Detection](https://arxiv.org/abs/1911.12903)
+- [U-Net for Land Cover Classification](https://arxiv.org/abs/2003.02899) – Demonstrates U-Net’s performance in segmenting land types  
+- [Semantic Segmentation for Change Detection](https://arxiv.org/abs/1911.12903) – Highlights deep learning methods for tracking environmental changes over time
 
 <hr>
 
 ## 4. 🪖 Military & Defense
 
-**Focus:** Autonomous surveillance and intelligence using aerial imagery
+**Focus:** Real-time aerial surveillance, target detection, and autonomous intelligence in defense operations.
 
 **Use Cases:**
 - Target detection and classification (vehicles, weapons, equipment, personnel)
@@ -161,20 +155,118 @@ Object detection enables:
 - [Helsing](https://www.helsing.ai) – Combat-ready autonomous vision systems  
 - [Project Maven](https://www.theguardian.com/technology/2018/mar/07/google-ai-us-department-of-defense-military-drone-project-maven-tensorflow) – U.S. DoD program using AI on drone footage
 - [Palantir + Xailient Case Study](https://xailient.com/casestudies/palantir-poc/?utm_source=chatgpt.com) – Real-time battlefield vision AI deployment
-- [DARPA](https://www.darpa.mil), [NATO](https://www.nato.int), [Lockheed Martin](https://www.lockheedmartin.com), [Raytheon](https://www.rtx.com) – Research and deployment  
+- [DARPA](https://www.darpa.mil) – Defense research in autonomous systems and geospatial AI
 
 ### Datasets
-- **Roboflow Military Drone Dataset** – Real-world drone detection  
-  🔗 https://universe.roboflow.com/military-xmb2h/military-drone-detection  
-- **MDPI UAVT-3** – UAV surveillance + fine-tuned detection  
-  🔗 https://www.mdpi.com/2076-3417/12/23/12236  
-- **DOTA** – Large-scale aerial object dataset (ships, planes, tanks)  
-  🔗 https://captain-whu.github.io/DOTA/dataset.html  
-- **xView** – Military/civilian vehicle detection from satellite  
-  🔗 https://xviewdataset.org
+- [DOTA](https://captain-whu.github.io/DOTA/dataset.html) – High-resolution aerial dataset with military-relevant objects (tanks, planes, ships)  
+- [xView](https://xviewdataset.org) – Satellite dataset for detecting vehicles, structures, and military equipment  
+- [Roboflow Military Drone Dataset](https://universe.roboflow.com/military-xmb2h/military-drone-detection) – Drone-focused dataset for real-time object detection  
+- [MDPI UAVT-3](https://www.mdpi.com/2076-3417/12/23/12236) – UAV-based surveillance imagery with annotated military targets
 
 **Academic Papers & Research:**
-- [MOD Dataset – Military Object Detection Benchmark](https://arxiv.org/pdf/2104.13763v1)
+- [MOD: Military Object Detection Benchmark](https://arxiv.org/pdf/2104.13763v1) – A standardized benchmark for evaluating models on military aerial imagery
+
+---
+
+## Object-Specific Use Cases
+
+This section focuses on specific object classes commonly found in aerial/satellite imagery. Each object is linked to a relevant field of application, datasets, and practical use cases.
+
+### 1. Airplanes
+**Use Case:** Aircraft detection helps monitor aviation infrastructure, estimate air traffic, or track military aircraft movement.  
+**Industries:** Aviation, Defense, Intelligence  
+**Datasets:** DOTA, xView, AID
+
+### 2. Airports
+**Use Case:** Monitoring airport infrastructure supports national security, aviation logistics, and urban planning.  
+**Industries:** Civil Aviation, Smart Cities  
+**Datasets:** AID, xView
+
+### 3. Bridges
+**Use Case:** Critical for disaster response (floods, earthquakes), infrastructure planning, and risk assessment.  
+**Industries:** Civil Engineering, Urban Monitoring  
+**Datasets:** OpenEarthMap, DOTA
+
+### 4. Chimneys
+**Use Case:** Helps detect industrial pollution sources and emission tracking.  
+**Industries:** Environmental Monitoring  
+**Datasets:** Often requires custom annotation; visible in xView imagery
+
+### 5. Dams
+**Use Case:** Used to monitor water infrastructure, reservoir levels, and potential flood risks.  
+**Industries:** Water Management, Disaster Planning  
+**Datasets:** Sentinel-2, xView
+
+### 6. Industrial Facilities
+**Use Case:** Supports environmental auditing, infrastructure tracking, and emission analysis.  
+**Industries:** Energy, Environmental Agencies  
+**Datasets:** SEN12MS, DOTA
+
+### 7. Ports
+**Use Case:** Port detection aids in logistics optimization, maritime traffic monitoring, and border control.  
+**Industries:** Maritime Trade, Border Security  
+**Datasets:** DOTA, xView
+
+### 8. Railway Stations
+**Use Case:** Understanding transportation flow, passenger behavior, and accessibility improvements.  
+**Industries:** Transport Planning, Urban Development  
+**Datasets:** AID, OpenStreetMap
+
+### 9. Stadiums
+**Use Case:** Public event monitoring, crowd control, and emergency response planning.  
+**Industries:** Smart Cities, Security  
+**Datasets:** AID, Google Earth imagery
+
+### 10. Windmills
+**Use Case:** Renewable energy site tracking and efficiency monitoring.  
+**Industries:** Clean Energy, Urban Sustainability  
+**Datasets:** Sentinel-2, OpenEarthMap
+
+### 11. Ships
+**Use Case:** Detecting naval and commercial ship movement to monitor trade routes and illegal activity.  
+**Industries:** Defense, Maritime Trade  
+**Datasets:** xView, DOTA, VisDrone
+
+### 12. Squares (Public Spaces)
+**Use Case:** Crowd behavior analysis and spatial utilization in smart city planning.  
+**Industries:** Urban Design, Public Safety  
+**Datasets:** Google Earth, OSM-based mapping
+
+### 13. Storage Tanks
+**Use Case:** Detect oil/gas reserves and estimate economic activity from satellite imagery.  
+**Industries:** Oil & Gas, Defense  
+**Datasets:** DOTA, xView
+
+### 14. Vehicles
+**Use Case:** Detect and classify vehicles for traffic analysis, law enforcement, and military surveillance.  
+**Industries:** Smart Cities, Transportation, Defense  
+**Datasets:** DOTA, xView, VisDrone
+
+---
+
+### 📊 Summary Table
+
+| Object | Industries | Use Cases | Example Datasets |
+|--------|----------------|------------------|------------------|
+| **Airplanes** | Aviation, Military, Surveillance | Air traffic monitoring, runway detection, fleet tracking | DOTA, xView, AID |
+| **Airports** | Urban Planning, Logistics | Mapping airport boundaries, planning expansions, emergency response | AID, xView |
+| **Bridges** | Civil Engineering, Disaster Management | Structural analysis, bridge condition assessment, post-flood inspection | DOTA, OpenEarthMap |
+| **Chimneys** | Industrial Monitoring, Environment | Detecting active emissions, monitoring polluting factories | Google Earth (manual), DOTA |
+| **Dams** | Hydrology, Infrastructure | Monitoring dam status, early warning for failures | xView, Sentinel |
+| **Industrial Facilities** | Energy, Compliance, Defense | Pollution tracking, detecting illegal/active factories | SEN12MS, DOTA |
+| **Ports** | Maritime, Logistics, National Security | Ship activity detection, port congestion analysis | DOTA, xView |
+| **Railway Stations** | Transportation, Urban Planning | Train infrastructure tracking, connectivity analysis | AID, OpenStreetMap |
+| **Stadiums** | Public Safety, City Management | Crowd analysis, public event monitoring | AID, satellite imagery |
+| **Windmills** | Renewable Energy | Energy output forecasting, maintenance inspection | Sentinel-2, OpenEarthMap |
+| **Ships** | Maritime Security, Trade | Movement detection, naval presence, illegal fishing | xView, DOTA, AIS-SAR |
+| **Squares (Public Spaces)** | Urban Planning, Social Sciences | Monitoring public spaces, protest detection, urban activity | Google Earth, OSM |
+| **Storage Tanks** | Oil & Gas, Critical Infrastructure | Resource monitoring, facility mapping | DOTA, xView |
+| **Vehicles** | Smart Cities, Military, Traffic | Traffic flow estimation, convoy detection, anomaly spotting | VisDrone, xView, DOTA |
+
+> 📌 **Notes:**
+> - Many of these objects can be found in datasets like DOTA and xView.
+> - Some Objects require custom annotation (e.g., chimneys, tanks).
+> - Models like YOLOv8 and Detectron2 are recommended for object-specific fine-tuning.
 
 ---
 
