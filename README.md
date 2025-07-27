@@ -250,20 +250,20 @@ This section focuses on specific object classes commonly found in aerial/satelli
 
 | Object | Industries | Use Cases | Example Datasets |
 |--------|----------------|------------------|------------------|
-| **Airplanes** | Aviation, Military, Surveillance | Air traffic monitoring, runway detection, fleet tracking | DOTA, xView, AID |
-| **Airports** | Urban Planning, Logistics | Mapping airport boundaries, planning expansions, emergency response | AID, xView |
-| **Bridges** | Civil Engineering, Disaster Management | Structural analysis, bridge condition assessment, post-flood inspection | DOTA, OpenEarthMap |
-| **Chimneys** | Industrial Monitoring, Environment | Detecting active emissions, monitoring polluting factories | Google Earth (manual), DOTA |
-| **Dams** | Hydrology, Infrastructure | Monitoring dam status, early warning for failures | xView, Sentinel |
-| **Industrial Facilities** | Energy, Compliance, Defense | Pollution tracking, detecting illegal/active factories | SEN12MS, DOTA |
-| **Ports** | Maritime, Logistics, National Security | Ship activity detection, port congestion analysis | DOTA, xView |
-| **Railway Stations** | Transportation, Urban Planning | Train infrastructure tracking, connectivity analysis | AID, OpenStreetMap |
-| **Stadiums** | Public Safety, City Management | Crowd analysis, public event monitoring | AID, satellite imagery |
-| **Windmills** | Renewable Energy | Energy output forecasting, maintenance inspection | Sentinel-2, OpenEarthMap |
-| **Ships** | Maritime Security, Trade | Movement detection, naval presence, illegal fishing | xView, DOTA, AIS-SAR |
-| **Squares (Public Spaces)** | Urban Planning, Social Sciences | Monitoring public spaces, protest detection, urban activity | Google Earth, OSM |
-| **Storage Tanks** | Oil & Gas, Critical Infrastructure | Resource monitoring, facility mapping | DOTA, xView |
-| **Vehicles** | Smart Cities, Military, Traffic | Traffic flow estimation, convoy detection, anomaly spotting | VisDrone, xView, DOTA |
+| **1. Airplanes** | Aviation, Military, Surveillance | Air traffic monitoring, runway detection, fleet tracking | DOTA, xView, AID |
+| **2. Airports** | Urban Planning, Logistics | Mapping airport boundaries, planning expansions, emergency response | AID, xView |
+| **3. Bridges** | Civil Engineering, Disaster Management | Structural analysis, bridge condition assessment, post-flood inspection | DOTA, OpenEarthMap |
+| **4. Chimneys** | Industrial Monitoring, Environment | Detecting active emissions, monitoring polluting factories | Google Earth (manual), DOTA |
+| **5. Dams** | Hydrology, Infrastructure | Monitoring dam status, early warning for failures | xView, Sentinel |
+| **6. Industrial Facilities** | Energy, Compliance, Defense | Pollution tracking, detecting illegal/active factories | SEN12MS, DOTA |
+| **7. Ports** | Maritime, Logistics, National Security | Ship activity detection, port congestion analysis | DOTA, xView |
+| **8. Railway Stations** | Transportation, Urban Planning | Train infrastructure tracking, connectivity analysis | AID, OpenStreetMap |
+| **9. Stadiums** | Public Safety, City Management | Crowd analysis, public event monitoring | AID, satellite imagery |
+| **10. Windmills** | Renewable Energy | Energy output forecasting, maintenance inspection | Sentinel-2, OpenEarthMap |
+| **11. Ships** | Maritime Security, Trade | Movement detection, naval presence, illegal fishing | xView, DOTA, AIS-SAR |
+| **12. Squares (Public Spaces)** | Urban Planning, Social Sciences | Monitoring public spaces, protest detection, urban activity | Google Earth, OSM |
+| **13. Storage Tanks** | Oil & Gas, Critical Infrastructure | Resource monitoring, facility mapping | DOTA, xView |
+| **14. Vehicles** | Smart Cities, Military, Traffic | Traffic flow estimation, convoy detection, anomaly spotting | VisDrone, xView, DOTA |
 
 > 📌 **Notes:**
 > - Many of these objects can be found in datasets like DOTA and xView.
