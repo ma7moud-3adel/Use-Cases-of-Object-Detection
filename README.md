@@ -9,7 +9,8 @@
   - [Urban Sensing](#2-urban-sensing)
   - [Land Cover Segmentation](#3-land-cover-segmentation)
   - [Military & Defense](#4-military--defense)
-- [Object-Specific Use Cases](#-object-specific-use-cases)
+<!-- - [Object-Specific Use Cases](#-object-specific-use-cases) -->
+- <a href="#here">Object-Specific Use Cases</a>
 - [Popular Models & Frameworks](#-popular-models--frameworks)
 - [Additional Resources](#-additional-resources)
 
@@ -168,7 +169,8 @@ Object detection enables:
 
 ---
 
-## Object-Specific Use Cases
+<!-- ## Object-Specific Use Cases -->
+<h3 id="here"> Object-Specific Use Cases </h3>
 
 This section focuses on specific object classes commonly found in aerial/satellite imagery. Each object is linked to a relevant field of application, datasets, and practical use cases.
 
